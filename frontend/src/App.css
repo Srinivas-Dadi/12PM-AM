@@ -13,7 +13,7 @@
 }
 
 .homeScreen{
-  height: 93vh;
+  padding: 1px;
   background-color: #F5F3EC;
 }
 
@@ -53,21 +53,25 @@
   -webkit-text-stroke: #F5F3EC;
   -webkit-text-stroke-width: .05px;
 }
-/* 
-@media screen and (max-width: 1030px) {
-  .category{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    margin: 7vw;
-  }
+
+/* .mobilecard{
+  
+} */
+
+@media screen and (max-width: 1030px) and (min-width: 950px) {
   .category h2{
-    font-size: 2vw;
-    margin: 1vh;
+    color: #1C2C59;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+    margin: 40px 15px;
   }
 }
 
-@media screen and (max-width: 950px) {
-  .category{
-    display: none;
-  }
-} */
+@media screen and (max-width: 949px) {
+    .category{
+      display: none;
+    }
+    .mobilecard{
+      display: contents;
+    }
+}
