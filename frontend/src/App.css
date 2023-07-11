@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  pointer-events: none;
+  
+}
+
+.webpage{
+  padding: 20px;
+  background-color: #1C2C59;
+}
+
+.homeScreen{
+  height: 93vh;
+  background-color: #F5F3EC;
+}
+
+.restraunt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Restname{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.1vw;
+  width: 50vw;
+}
+
+.Burger{
+  width: 13vw;
+  aspect-ratio: 1/1;
+  margin: .5vw;
+  border: #1C2C59 2px solid;
+}
+
+.category{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 2vw;
+}
+
+.category h2{
+  color: #1C2C59;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  margin: 0px 15px;
+  -webkit-text-stroke: #F5F3EC;
+  -webkit-text-stroke-width: .05px;
+}
+/* 
+@media screen and (max-width: 1030px) {
+  .category{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 7vw;
+  }
+  .category h2{
+    font-size: 2vw;
+    margin: 1vh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .category{
+    display: none;
+  }
+} */

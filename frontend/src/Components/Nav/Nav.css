@@ -1,0 +1,19 @@
+.NavBar{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0% 3%;
+}
+
+.NavBar li{
+    list-style-type: none;
+    margin: .5vw 0vw;
+    font-size: 2vw;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #1C2C59;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 400px){
+   
+}
